@@ -23,12 +23,12 @@ public class UpperCaseFileConverter {
             writer.write(line.toUpperCase());
             writer.close();
         }
+        reader.close();
             
         } catch (IOException e) {
             System.out.println("Error: No Dice");
             e.printStackTrace();
         }
-
     }
 
 }

@@ -32,6 +32,8 @@ public class MeasurmentConversion {
                 case 4: 
                     System.out.println("Quitting Program...");
                     return;
+                default:
+                    System.out.println("Invalid input. Try again!");
                  }
              }
 
