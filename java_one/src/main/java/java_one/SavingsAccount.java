@@ -1,22 +1,22 @@
-// should: accept amount of starting balance
-//         subtract amount of withdrawal
-//         add amount of deposit
-//
-//         monthly interest rate = (annual interest rate / 12)
-//         to add monthly interest rate to balance = (monthly interest rate * balance) and add to result of balance
-//
-//         ask for: 
-//              annual interest rate
-//              starting balance
-//              number of months
-//
-//          loop should happen once per month:
-//              ask user for amount deposited that month -> add to balance
-//              ask user for amount withdrawn that month -> subtract from balance
-//          
-//          use class method to calculate monthly interest
-//          
-//          after last iteration, sout ending balance, total deposits, total withdraws, and total interest earned
+/* should: accept amount of starting balance
+        subtract amount of withdrawal
+        add amount of deposit
+
+        monthly interest rate = (annual interest rate / 12)
+        to add monthly interest rate to balance = (monthly interest rate * balance) and add to result of balance
+
+        ask for: 
+             annual interest rate
+             starting balance
+             number of months
+
+         loop should happen once per month:
+             ask user for amount deposited that month -> add to balance
+             ask user for amount withdrawn that month -> subtract from balance
+         
+         use class method to calculate monthly interest
+         
+         after last iteration, sout ending balance, total deposits, total withdraws, and total interest earned */
 
 package java_one;
 import java.util.*;
