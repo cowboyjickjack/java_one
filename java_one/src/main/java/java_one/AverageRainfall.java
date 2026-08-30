@@ -15,7 +15,7 @@ public class AverageRainfall {
         for (int i = 0; i < yearsInput; i++) {
             for (int j = 0; j < 12; j++){
 
-                while (true) {
+                while (true) { // good to use bc we don't know how many inputs will be made by user
                     
                     System.out.println("Enter inches of rainfall this month: ");
 
